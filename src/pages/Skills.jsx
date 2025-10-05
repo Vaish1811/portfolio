@@ -24,7 +24,7 @@ function Skills() {
   ];
   return (
     <>
-      <div className='bg-black h-fit my-4 md:my-6 hover:border-3 hover:border-violet-600'>
+      <div id='skills' className='bg-black h-fit hover:border-3'>
         <h1 className='text-5xl font-bold text-white text-center py-20'>Skills</h1>
         <div className="grid grid-cols-2 py-10 sm:grid-cols-3 md:grid-cols-4 gap-6 md:py-15">
           {skills.map((skill, index) => (

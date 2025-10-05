@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <>
-      <div className='bg-black grid grid-cols-1 py-60 h-screen my-4 md:grid md:grid-cols-2 md:py-60 md:my-6 hover:border-3 hover:border-violet-600'>
+      <div id='home' className='bg-black container grid grid-cols-1 py-60 h-screen mx-auto md:mx-auto md:grid md:grid-cols-2 md:py-60 '>
         <div className='flex flex-col justify-center items-center text-center h-2/4'>
           <h1 className='text-5xl font-bold text-white'>Hi, I am <span className='text-violet-600'>Vaishnav</span></h1>
           <h3 className='text-3xl font-bold text-white py-5 hover:bg-amber-300 hover:text-shadow-2xs hover:text-shadow-amber-950'>A Fullstack Developer</h3>
